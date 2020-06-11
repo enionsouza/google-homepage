@@ -1,0 +1,51 @@
+.header {
+    display: block;
+    float: right;
+    margin: 10px 0 0 0;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    /*min-height: 100%;
+    min-width: 1139px;*/
+    padding: 0 0 0 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.apps {
+    padding: 8px 10px 5px 30px;
+    width: 30px;
+    height: 30px;
+    opacity: .55;
+    background-image: url('/images/apps-icon.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+}
+
+.apps:hover {
+    opacity: .85;
+}
+
+#signin {
+    background-color: #4683ea;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    border-color: transparent;
+    margin-right: 30px;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto 0;
+    padding: 109px 30% 0;
+}
