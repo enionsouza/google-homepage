@@ -1,21 +1,27 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-width: 1139px;
+}
+
 .header {
     display: block;
     float: right;
     margin: 10px 0 0 0;
     font-size: 13px;
     font-family: Arial, sans-serif;
-    /*min-height: 100%;
-    min-width: 1139px;*/
     padding: 0 0 0 200px;
 }
 
-a {
+.header-anchors {
     text-decoration: none;
     color: black;
     margin: 5px;
 }
 
-a:hover {
+.header-anchors:hover {
     text-decoration: underline;
 
 }
@@ -47,5 +53,70 @@ a:hover {
 #logo {
     display: block;
     margin: 0 auto 0;
-    padding: 109px 30% 0;
+    padding: 109px 30% 30px;
+}
+
+#search-icon {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: default;
+    opacity: .55;
+}
+
+input {
+    height: 30px;
+    width: 600px;
+    font-size: medium;
+    border: solid 1px rgb(230, 228, 228);
+    border-radius: 21px;
+    padding: 21px 50px;
+    margin: 0 28% 0;
+}
+
+input:focus, input:hover {
+    outline: none;
+    box-shadow: 0 0 .3em 2px rgb(230, 228, 228);
+}
+
+.searchers {
+    display: block;
+    padding: 0 0 0 37%;
+    margin-top: 25px;
+    opacity: .65;
+}
+
+.search-button {
+    display: inline-table;
+    font-size: 15px;
+    filter: saturate(50%);
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    box-shadow: 0 0 0 1px rgb(146, 145, 145);
+}
+
+footer {
+    margin-top: 15%;
+    padding: 20px 10px;
+    border: solid 1px rgb(187, 187, 187);
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
+
+.footer1, .footer2 {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    opacity: .55;
+    padding: 20px 10px;
+}
+
+.footer1:hover, .footer2:hover {
+    text-decoration: underline;
 }
